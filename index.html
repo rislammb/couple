@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Couple Form</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+      div.table {
+        padding: 5px;
+        overflow: auto;
+      }
+      table {
+        border-collapse: collapse;
+        table-layout: fixed;
+        width: 1200px;
+      }
+      td {
+        border: 1px solid #333;
+        padding: 5px;
+      }
+      .center {
+        text-align: center;
+      }
+      .rotate {
+        white-space: nowrap;
+        transform: rotate(-90deg);
+      }
+      .rotate div {
+        margin-left: -65px;
+      }
+      .rotate .total {
+        margin-left: -52px;
+      }
+      .rotate p {
+        margin-left: -35px;
+      }
+      .rotate span {
+        margin-left: -22px;
+      }
+      table tbody {
+        text-align: center;
+      }
+      tbody tr td {
+        padding: 0;
+        margin: 0;
+        line-height: 37px;
+      }
+      tbody tr input {
+        border: none;
+        outline: none;
+        font-size: 16px;
+        text-align: center;
+        width: 100%;
+      }
+
+      .close {
+        background-color: #eee;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="table">
+      <table>
+        <thead>
+          <tr>
+            <td rowspan="4" class="rotate"><div>বয়সের বিন্যাস</div></td>
+            <td rowspan="4" class="rotate">
+              <div>সন্তান সংখ্যার বিন্যাস</div>
+            </td>
+            <td colspan="15" class="center">পদ্ধতি গ্রহণকারী</td>
+            <td rowspan="4" class="rotate"><div>অগ্রহণকারী</div></td>
+            <td rowspan="4" class="rotate"><div>গর্ভবতী</div></td>
+            <td rowspan="4" class="rotate">
+              <div>মোট জীবিত সন্তান সংখ্যা</div>
+            </td>
+            <td rowspan="4" class="rotate">
+              <div>স্বামী বিদেশ</div>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" class="center">খাবার বড়ি</td>
+            <td colspan="2" class="center">কনডম</td>
+            <td colspan="2" class="center">ইনজেকটেবল</td>
+            <td colspan="2" class="center">আইইউডি</td>
+            <td colspan="2" class="center">ইমপ্লান্ট</td>
+            <td colspan="4" class="center">স্থায়ী পদ্ধতি</td>
+            <td rowspan="3" class="rotate"><p class="total">মোট</p></td>
+          </tr>
+          <tr>
+            <td rowspan="2" class="rotate"><p>স্বাভাবিক</p></td>
+            <td rowspan="2" class="rotate"><p>প্রসব পরবর্তী</p></td>
+            <td rowspan="2" class="rotate"><p>স্বাভাবিক</p></td>
+            <td rowspan="2" class="rotate"><p>প্রসব পরবর্তী</p></td>
+            <td rowspan="2" class="rotate"><p>স্বাভাবিক</p></td>
+            <td rowspan="2" class="rotate"><p>প্রসব পরবর্তী</p></td>
+            <td rowspan="2" class="rotate"><p>স্বাভাবিক</p></td>
+            <td rowspan="2" class="rotate"><p>প্রসব পরবর্তী</p></td>
+            <td rowspan="2" class="rotate"><p>স্বাভাবিক</p></td>
+            <td rowspan="2" class="rotate"><p>প্রসব পরবর্তী</p></td>
+
+            <td colspan="2" class="center">পুরুষ</td>
+            <td colspan="2" class="center">মহিলা</td>
+          </tr>
+
+          <tr>
+            <td rowspan="2" class="rotate"><span>স্বাভাবিক</span></td>
+            <td rowspan="2" class="rotate"><span>প্রসব পরবর্তী</span></td>
+            <td rowspan="2" class="rotate"><span>স্বাভাবিক</span></td>
+            <td rowspan="2" class="rotate"><span>প্রসব পরবর্তী</span></td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="rowOne">
+            <td rowspan="5" class="rotate">৪০ - ৪৯</td>
+            <td>০</td>
+            <td><input value="৩৯" /></td>
+            <td><input value="০২" /></td>
+            <td><input value="০৯" /></td>
+            <td><input value="০" /></td>
+            <td><input value="০" /></td>
+            <td><input value="০" /></td>
+            <td><input value="০" /></td>
+            <td><input value="০" /></td>
+            <td><input value="০" /></td>
+            <td><input value="০" /></td>
+            <td><input value="০" /></td>
+            <td><input value="০" /></td>
+            <td><input value="০" /></td>
+            <td><input value="০" /></td>
+            <td class="zeroTotal">০</td>
+            <td><input value="৬২" /></td>
+            <td><input value="০৭" /></td>
+
+            <td class="close"></td>
+            <td><input value="০" /></td>
+          </tr>
+          <tr class="rowTwo">
+            <td>১</td>
+            <td><input value="৮৭" /></td>
+            <td><input value="০৯" /></td>
+            <td><input value="০৬" /></td>
+            <td><input value="০" /></td>
+            <td><input value="২১" /></td>
+            <td><input value="০১" /></td>
+            <td><input value="০১" /></td>
+            <td><input value="০" /></td>
+            <td><input value="১৫" /></td>
+            <td><input value="০" /></td>
+            <td><input value="০৫" /></td>
+            <td><input value="০" /></td>
+            <td><input value="০৫" /></td>
+            <td><input value="০" /></td>
+            <td class="oneTotal">০</td>
+            <td><input value="৫৭" /></td>
+            <td><input value="০৭" /></td>
+            <td><input value="১৯১" /></td>
+            <td><input value="০১" /></td>
+          </tr>
+          <tr class="rowThree">
+            <td>২</td>
+            <td><input value="১১৭" /></td>
+            <td><input value="১০" /></td>
+            <td><input value="১৪" /></td>
+            <td><input value="০" /></td>
+            <td><input value="৩৬" /></td>
+            <td><input value="০২" /></td>
+            <td><input value="১২" /></td>
+            <td><input value="০" /></td>
+            <td><input value="১৯" /></td>
+            <td><input value="০২" /></td>
+            <td><input value="০৮" /></td>
+            <td><input value="০" /></td>
+            <td><input value="২২" /></td>
+            <td><input value="০" /></td>
+            <td class="twoTotal">০</td>
+            <td><input value="১৮" /></td>
+            <td><input value="০৪" /></td>
+            <td><input value="৫২৪" /></td>
+            <td><input value="০১" /></td>
+          </tr>
+          <tr class="rowFour">
+            <td>৩+</td>
+            <td><input value="৪৯" /></td>
+            <td><input value="০৬" /></td>
+            <td><input value="২২" /></td>
+            <td><input value="০" /></td>
+            <td><input value="২৫" /></td>
+            <td><input value="০" /></td>
+            <td><input value="০৫" /></td>
+            <td><input value="০" /></td>
+            <td><input value="০৬" /></td>
+            <td><input value="০১" /></td>
+            <td><input value="৩৭" /></td>
+            <td><input value="০" /></td>
+            <td><input value="৫৫" /></td>
+            <td><input value="০" /></td>
+            <td class="threeTotal">০</td>
+            <td><input value="১৩" /></td>
+            <td><input value="০১" /></td>
+            <td><input value="৮৯১" /></td>
+            <td><input value="০১" /></td>
+          </tr>
+          <tr class="rowFive">
+            <td>মোট</td>
+            <td>২০</td>
+            <td>২০</td>
+            <td>২০</td>
+            <td>২০</td>
+            <td>২০</td>
+            <td>২০</td>
+            <td>২০</td>
+            <td>২০</td>
+            <td>২০</td>
+            <td>২০</td>
+            <td>২০</td>
+            <td>২০</td>
+            <td>২০</td>
+            <td>২০</td>
+            <td>২০</td>
+            <td>২০</td>
+            <td>২০</td>
+            <td>২০</td>
+            <td>২০</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <button id="calculate">Calculate</button>
+
+    <script>
+      window.addEventListener('load', function () {
+        var rotates = document.getElementsByClassName('rotate');
+        for (var i = 0; i < rotates.length; i++) {
+          rotates[i].style.height = rotates[i].offsetWidth + 50 + 'px';
+        }
+
+        var banglaToEnglish = {
+          '০': 0,
+          '১': 1,
+          '২': 2,
+          '৩': 3,
+          '৪': 4,
+          '৫': 5,
+          '৬': 6,
+          '৭': 7,
+          '৮': 8,
+          '৯': 9,
+        };
+        var englishToBangla = {
+          0: '০',
+          1: '১',
+          2: '২',
+          3: '৩',
+          4: '৪',
+          5: '৫',
+          6: '৬',
+          7: '৭',
+          8: '৮',
+          9: '৯',
+        };
+
+        function replaceToEnglish(input) {
+          var output = [];
+          for (var i = 0; i < input.length; ++i) {
+            if (banglaToEnglish.hasOwnProperty(input[i])) {
+              output.push(banglaToEnglish[input[i]]);
+            } else {
+              output.push(input[i]);
+            }
+          }
+          return output.join('');
+        }
+        function replaceToBangla(input) {
+          var output = [];
+          for (var i = 0; i < input.length; ++i) {
+            if (englishToBangla.hasOwnProperty(input[i])) {
+              output.push(englishToBangla[input[i]]);
+            } else {
+              output.push(input[i]);
+            }
+          }
+          return output.join('');
+        }
+
+        function getTotal() {
+          const rowOne = document.querySelector('.rowOne');
+          const zeroTotal = document.querySelector('.zeroTotal');
+          const tdZero = rowOne.children;
+          let zeroTotalValue = 0;
+          for (let i = 0; i < tdZero.length - 4; i++) {
+            if (tdZero[i].children.length > 0) {
+              zeroTotalValue += +replaceToEnglish(tdZero[i].children[0].value);
+            }
+          }
+          zeroTotal.innerText = replaceToBangla(zeroTotalValue.toString());
+
+          const rowTwo = document.querySelector('.rowTwo');
+          const oneTotal = document.querySelector('.oneTotal');
+          const tdOne = rowTwo.children;
+          let oneTotalValue = 0;
+          for (let i = 0; i < tdOne.length - 4; i++) {
+            if (tdOne[i].children.length > 0) {
+              oneTotalValue += +replaceToEnglish(tdOne[i].children[0].value);
+            }
+          }
+          oneTotal.innerText = replaceToBangla(oneTotalValue.toString());
+
+          const rowThree = document.querySelector('.rowThree');
+          const twoTotal = document.querySelector('.twoTotal');
+          const tdTwo = rowThree.children;
+          let twoTotalValue = 0;
+          for (let i = 0; i < tdTwo.length - 4; i++) {
+            if (tdTwo[i].children.length > 0) {
+              twoTotalValue += +replaceToEnglish(tdTwo[i].children[0].value);
+            }
+          }
+          twoTotal.innerText = replaceToBangla(twoTotalValue.toString());
+
+          const rowFour = document.querySelector('.rowFour');
+          const threeTotal = document.querySelector('.threeTotal');
+          const tdThree = rowFour.children;
+          let threeTotalValue = 0;
+          for (let i = 0; i < tdThree.length - 4; i++) {
+            if (tdThree[i].children.length > 0) {
+              threeTotalValue += +replaceToEnglish(
+                tdThree[i].children[0].value
+              );
+            }
+          }
+          threeTotal.innerText = replaceToBangla(threeTotalValue.toString());
+        }
+
+        const calculate = document.getElementById('calculate');
+        calculate.addEventListener('click', () => getTotal());
+      });
+    </script>
+  </body>
+</html>
